@@ -13,7 +13,7 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)  
 	public int id_product;
-	
+	//Documeto de Visual
 	@Column(name="desc_product")
 	public String description;
 	@Column(name="quantity")
